@@ -19,21 +19,21 @@
 Страницы: авторизации(для добавления имён пользователей), добавления чатов/ просмотра чатов, просмотра сообщений
 1. Страницы авторизации
 
-![login](pictures/login.png)
+![login](server/pictures/login.png)
 
-![regictration](pictures/reg.png)
+![regictration](server/pictures/reg.png)
 
 2. Добавления/просмотра чатов
 
-![chats](pictures/chats.png)
+![chats](server/pictures/chats.png)
 
 3. Пример списка пользователей
 
-![chats](pictures/chats_more.png)
+![chats](server/pictures/chats_more.png)
 
 4. Добавления/просмотра сообщений
 
-![message_vies](pictures/message_view.png)
+![message_viewq](server/pictures/message_view.png)
 
 ## Пользовательские сценарии работы
 1. При вводе в адресной строке "/" пользователя переносит на "/chats", где если пользователь авторизован, выводится меню чатов. Чаты определяются по параметру запроса вида "/chats:id". Тут же на "/chats" имеется форма для создания нового чата. Чаты обновляются динамичсеки с использованием сетевых запросо fetch.
