@@ -70,29 +70,27 @@
 
 ## Описание алгоритмов
 1. Алгоритм добавления чата
-
-
-![add_chat](server/pictures/addchat.png)
+![add_chat](pictures/addchat.png)
 
 
 2. Алгоритм добавления сообщения
-![message](server/pictures/message.png)
+![message](pictures/message.png)
 
 
 3. Алгоритм обновления данных
-![update_alg](server/pictures/updatealg.png)
+![update_alg](pictures/updatealg.png)
 
 
 4. Алгоритм регистрации
-![reg](server/pictures/reg.png)
+![reg](pictures/reg.png)
 
 
 5. Алгоритм авторизации
-![auth_alg](server/pictures/authalg.png)
+![auth_alg](pictures/authalg.png)
 
 
 6. Алгоритм входа
-![enter_alg](server/pictures/enteralg.png)
+![enter_alg](pictures/enteralg.png)
 
 
 ----
