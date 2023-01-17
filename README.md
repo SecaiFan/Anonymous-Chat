@@ -29,11 +29,11 @@
 
 3. Пример списка пользователей
 
-![chats](server/pictures/chats_more.png)
+![chats_more](server/pictures/chats_more.png)
 
 4. Добавления/просмотра сообщений
 
-![message_viewq](server/pictures/message_view.png)
+![message_view](server/pictures/message_view.png)
 
 ## Пользовательские сценарии работы
 1. При вводе в адресной строке "/" пользователя переносит на "/chats", где если пользователь авторизован, выводится меню чатов. Чаты определяются по параметру запроса вида "/chats:id". Тут же на "/chats" имеется форма для создания нового чата. Чаты обновляются динамичсеки с использованием сетевых запросо fetch.
@@ -71,24 +71,24 @@
 ## Описание алгоритмов
 1. Алгоритм добавления чата
 
-![add_alg_chat](pictures/add_chat.png)
+![add_chat](server/pictures/addchat.png)
 
 2. Алгоритм добавления сообщения
 
-![message_alg](pictures/message.png)
+![message](server/pictures/message.png)
 
 3. Алгоритм обновления данных
 
-![update_alg](pictures/update_alg.png)
+![update_alg](server/pictures/updatealg.png)
 
 4. Алгоритм регистрации
-![registration_alg](pictures/reg.png)
+![reg](server/pictures/reg.png)
 
 5. Алгоритм авторизации
-![auth_alg](pictures/auth_alg.png)
+![auth_alg](server/pictures/authalg.png)
 
 6. Алгоритм входа
-![enter_alg](pictures/enter_alg.png)
+![enter_alg](server/pictures/enteralg.png)
 
 
 ----
