@@ -8,7 +8,7 @@ class messageController {
     async showChatMessages(req, res, next) {
         try {
             /*console.log(req.url);*/
-            return res.render('messages');
+            res.render('messages');
         } catch(e) {
             console.log(e);
             return next(ApiError.internal("Неизвестнаяя ошибка"));
@@ -23,8 +23,7 @@ class messageController {
             if(!text || !chatId) return next(ApiError.internal("Неизвестная ошибка"));
             if(!userData) return next(ApiError.internal("Неизвестная ошибка"));
             let message = await Message.create({author: userData.nickname, text:text, chatId: chatId, userId: userData.id})
-            /*console.log(message);
-            console.log('-----Adding Message End-----');*/
+
             return res.json(message);
         } catch(e) {
             console.log(e);
